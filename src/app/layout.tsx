@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div id="container" className=" bg-[url('/bg.jpg')] h-screen bg-fixed bg-cover bg-center  relative overflow-auto">
+        <div id="container" className=" bg-[url('/bg.jpg')] h-screen bg-fixed bg-cover bg-center overflow-auto">
 
           {children}
           <Menu />

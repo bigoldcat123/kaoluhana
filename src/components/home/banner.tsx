@@ -11,7 +11,7 @@ export default function Banner() {
     <>
       <div className=" flex">
         <div  className="w-[68vw] overflow-hidden" >
-          <Image src={currentImage} className="w-full h-auto " height={2686} width={1900} alt="a image"></Image>
+          <Image quality={75} src={currentImage} className="w-full h-auto " height={2686} width={1900} alt="a image"></Image>
         </div>
         <div  className="relative flex-1">
           <Image alt="" width={210} height={1141} src={"/home/title.png"} className="mx-auto sticky top-100 -translate-y-90  h-[40vw] w-auto" />

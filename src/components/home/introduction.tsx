@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Introduction() {
   return (
     <>
-      <div className=" relative">
+      <div className=" relative pointer-events-none">
         <header className="flex flex-col justify-center items-center gap-y-5 font-serif font-bold mb-30">
           <h1 className=" text-4xl tracking-[25px] font-thin font-serif bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500  bg-clip-text text-transparent">INTRODUCTION</h1>
           <p className="tracking-[15px]">イントロダクション</p>
