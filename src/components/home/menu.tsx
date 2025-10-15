@@ -1,7 +1,7 @@
 'use client'
 import { cn, sleep } from "@/lib/utils";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import MenuItem from "../menu-item";
 const ANIMATION_DURATION = 300;
 export default function Menu() {
